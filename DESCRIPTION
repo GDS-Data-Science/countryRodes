@@ -1,12 +1,16 @@
 Package: CountryRodes
 Title: Translation of Country Names and Country Codes
-Version: 1.2-1
+Version: 1.2-2
 Authors@R: 
-    person(given = "Geraline",
-           family = "Henningsen",
-           role = c("aut", "cre"),
-           email = "hennings@unhcr.org",
-           comment = c(ORCID = "0000-0002-4651-1039"))
+    c( person(given = "Geraline",
+              family = "Henningsen",
+              role = c("aut", "cre"),
+              email = "hennings@unhcr.org",
+              comment = c(ORCID = "0000-0002-4651-1039")),
+       person(given = "Giulia",
+              family = "Del Panta",
+              role = c("ctb"),
+              email = "delpanta@unhcr.org"))
 Description: This package allows the user to translate a vector of country codes 
    or names to either the ISO-alpha3 format, to UNHCR's proGres-alpha3 format, or to other name formats. 
 DEPENDENCIES: R (>= 3.5.0)
