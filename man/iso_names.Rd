@@ -56,8 +56,8 @@ iso_codes( vect, type = "UNSD_name" )
 
 # data frame with country names
 df <- data.frame( country = rep( c( "FRA", "SPA"), each = 3 ),
-                  year = rep( c( 2009:2011 ), 3 ),
-                  gdp = round( rnorm( 9, 5000, 2000 ), 0 ))
+                  year = rep( c( 2009:2011 ), 2 ),
+                  gdp = round( rnorm( 6, 5000, 2000 ), 0 ))
 
 df$iso3_name <- iso_codes( df[ , 1], type = "iso3_alpha3" )
 }
