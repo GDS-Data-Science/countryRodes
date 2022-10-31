@@ -1,7 +1,4 @@
 iso_names <- function( v, cm = NULL, type = c( "english_name", "un_names")){
-   # c( "english_name", "spanish_name", "UNSD_name", "nato_name",
-   #    "marc_name", "itu_names", "fips_name", "undp_name",
-   #    "fao_name", "lp_name", "wb_name", "prio_name", "un_names")
    # load data set with codes
    CountryRodesData = read.csv( system.file( "extdata", "CountryRodesData.csv",
                                              package = "CountryRodes") ,
@@ -15,3 +12,8 @@ iso_names <- function( v, cm = NULL, type = c( "english_name", "un_names")){
    iso_c <- CountryRodesData[ rows, type ]
    return( iso_c )
 }
+
+
+# c( "english_name", "spanish_name", "UNSD_name", "nato_name",
+#    "marc_name", "itu_names", "fips_name", "undp_name",
+#    "fao_name", "lp_name", "wb_name", "prio_name", "un_names")
