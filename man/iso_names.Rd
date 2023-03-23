@@ -15,7 +15,7 @@ iso_names(  v, cm = NULL, type = c( "english_name", "un_names" ))
 \arguments{
   \item{v}{vector of character strings containing country names or country codes.}
   \item{cm}{Optional. Allows to determine the code format of the original data.
-  Options are: 'english_name', 'french_name', 'gis_name', 'UNSD_name', 'iso3_alpha2',
+  Options are: 'english_name', 'french_name', 'gis_name', 'UNSD_name', 'iso3_alpha3',
   'iso3_num', 'noc_alpha3', 'noc_name', 'nato_alpha2', 'nato_alpha3', 'nato_name'
   'marc_alpha3', 'marc_name', 'itu_num', 'itu_alpha3', 'itu_names',	'fips_alpha2',
   'fips_name', 'undp_alpha3', 'undp_name', 'fao_name', 'fao_alpha3', 'lp_alpha3',
