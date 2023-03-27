@@ -19,7 +19,7 @@ iso_names(  v, cm = NULL, type = c( "english_name", "un_names" ))
   'iso3_num', 'noc_alpha3', 'noc_name', 'nato_alpha2', 'nato_alpha3', 'nato_name'
   'marc_alpha3', 'marc_name', 'itu_num', 'itu_alpha3', 'itu_names',	'fips_alpha2',
   'fips_name', 'undp_alpha3', 'undp_name', 'fao_name', 'fao_alpha3', 'lp_alpha3',
-  'lp_name', 'wb_name', 'prio_name', 'unhcr_name.
+  'lp_name', 'wb_name', 'prio_name', 'unhcr_name'.
   This option should only be set if the type of the original country names or
   country codes is known to match an element in the list.
 }
