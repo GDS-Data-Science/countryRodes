@@ -1,4 +1,4 @@
-iso_codes <- function( v, cm = NULL, type = c( "iso3_alpha3", "proGres_alpha3" )){
+iso_codes <- function( v, cm = NULL, type = c( "iso3", "proGres_alpha3" )){
    # load data set with codes
    CountryRodesData = read.csv( system.file( "extdata", "CountryRodesData.csv",
                                               package = "CountryRodes" ))
